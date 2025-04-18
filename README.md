@@ -6,6 +6,7 @@ After completing this lab you will be able to:
 - Write your basic python code
 
 >print ("Hi,this is Aytak") #this line is string.
+
 >Hi,this is Aytak
 
 Table of Contents
