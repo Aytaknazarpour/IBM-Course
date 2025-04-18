@@ -22,8 +22,6 @@ When learning a new programming language, it is customary to start with a "Hello
 # Try your first Python output
 print('Hello, Python!')
 >
->print(z)
->
->30
+
 
 
