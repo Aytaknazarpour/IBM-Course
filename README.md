@@ -41,6 +41,7 @@ We can also ask Python directly and obtain a detailed answer. Try executing the 
 >import sys
 
 >print(sys.version)
+
 [Tip:] sys is a built-in module that contains many system-specific parameters and functions, including the Python version in use. Before using it, we must explictly import it.
 keyboard_arrow_down
 Writing comments in Python
