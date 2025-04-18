@@ -21,7 +21,11 @@ When learning a new programming language, it is customary to start with a "Hello
 ```python
 # Try your first Python output
 print('Hello, Python!')
->
+Output:
+
+Hello, Python!
+
+
 
 
 
