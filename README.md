@@ -5,7 +5,7 @@ Objectives
 After completing this lab you will be able to: 
 - Write your basic python code
 
->print ("Hi,this is Aytak") #this line is string.
+>print("Hi,this is Aytak") #this line is string.
 
 >Hi,this is Aytak
 
@@ -39,6 +39,7 @@ We can also ask Python directly and obtain a detailed answer. Try executing the 
 # Check the Python Version
 
 >import sys
+
 >print(sys.version)
 [Tip:] sys is a built-in module that contains many system-specific parameters and functions, including the Python version in use. Before using it, we must explictly import it.
 keyboard_arrow_down
@@ -60,7 +61,7 @@ Everyone makes mistakes. For many types of mistakes, Python will tell you that y
 
 For example, if you spell print as frint, Python will display an error message. Give it a try:
 
-# Print string as error message
+- Print string as error message
 
 >frint ("Hello, Python!")
 
@@ -72,9 +73,10 @@ Here, Python attempted to run the function frint, but could not determine what f
 
 You'll notice that if we make a different type of mistake, by forgetting to close the string, we'll obtain a different error (i.e., a SyntaxError). Try it below:
 
-# Try to see built-in error message
+- Try to see built-in error message
 
-print("Hello, Python!)
+>print("Hello, Python!)
+>
 keyboard_arrow_down
 Does Python know about your error before it runs your code?
 Python is what is called an interpreted language. Compiled languages examine your entire program at compile time, and are able to warn you about a whole class of errors prior to execution. In contrast, Python interprets your script line by line as it executes it. Python will stop executing the entire program when it encounters an error (unless the error is expected and handled by the programmer, a more advanced subject that we'll cover later on in this course).
