@@ -99,21 +99,26 @@ In the code cell below, use the print() function to print out the phrase: Hello,
 - Write your code below. Don't forget to press Shift+Enter to execute the cell
 >print ("Hello, world!")
 >Hello, world!
->
+
 Click here for the solution
 Now, let's enhance your code with a comment. In the code cell below, print out the phrase: Hello, world! and comment it with the phrase Print the traditional hello world all in one line of code.
 
-# Write your code below. Don't forget to press Shift+Enter to execute the cell
-print("Hello, world!")  #print the raditional hello world
-Hello, world!
+- Write your code below. Don't forget to press Shift+Enter to execute the cell
+>print("Hello, world!")  #print the raditional hello world
+
+>Hello, world!
 Click here for the solution
 What is the value of z where z = x + y?
 
 # Write your code below. Don't forget to press Shift+Enter to execute the cell
-x == 10
-y == 20
-z = x + y
-print(z)
-30
-Click here for the solution
-17
+>x == 10
+>
+>y == 20
+>
+>z = x + y
+>
+>print(z)
+>
+>30
+
+
