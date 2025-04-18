@@ -23,6 +23,7 @@ When learning a new programming language, it is customary to start with an "hell
 # Try your first Python output
 
 >print('Hello, Python!')
+
 After executing the cell above, you should see that Python prints Hello, Python!. Congratulations on running your first Python code!
 
 [Tip:] print() is a function. You passed the string 'Hello, Python!' as an argument to instruct Python on what to print.
@@ -91,10 +92,10 @@ Generations of programmers have started their coding careers by simply printing 
 
 In the code cell below, use the print() function to print out the phrase: Hello, world!
 
-# Write your code below. Don't forget to press Shift+Enter to execute the cell
-print ("Hello, world!")
-
-Hello, world!
+- Write your code below. Don't forget to press Shift+Enter to execute the cell
+>print ("Hello, world!")
+>Hello, world!
+>
 Click here for the solution
 Now, let's enhance your code with a comment. In the code cell below, print out the phrase: Hello, world! and comment it with the phrase Print the traditional hello world all in one line of code.
 
