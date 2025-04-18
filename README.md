@@ -6,7 +6,7 @@ After completing this lab you will be able to:
 - Write your basic python code
 
 >print ("Hi,this is Aytak") #this line is string.
-Hi,this is Aytak
+>Hi,this is Aytak
 
 Table of Contents
 Say 'Hello' to the world in Python
@@ -22,7 +22,7 @@ When learning a new programming language, it is customary to start with an "hell
 [Tip]: To execute the Python code in the code cell below, click on the cell to select it and press Shift + Enter.
 # Try your first Python output
 
-print('Hello, Python!')
+>print('Hello, Python!')
 After executing the cell above, you should see that Python prints Hello, Python!. Congratulations on running your first Python code!
 
 [Tip:] print() is a function. You passed the string 'Hello, Python!' as an argument to instruct Python on what to print.
@@ -36,8 +36,8 @@ We can also ask Python directly and obtain a detailed answer. Try executing the 
 
 # Check the Python Version
 
-import sys
-print(sys.version)
+>import sys
+>print(sys.version)
 [Tip:] sys is a built-in module that contains many system-specific parameters and functions, including the Python version in use. Before using it, we must explictly import it.
 keyboard_arrow_down
 Writing comments in Python
@@ -45,22 +45,22 @@ In addition to writing code, note that it's always a good idea to add comments t
 
 To write comments in Python, use the number symbol # before writing your comment. When you run your code, Python will ignore everything past the # on a given line.
 
-# Practice on writing comments
+- Practice on writing comments
 
-print('Hello, Python!') # This line prints a string
+>print('Hello, Python!') # This line prints a string
 
 After executing the cell above, you should notice that This line prints a string did not appear in the output, because it was a comment (and thus ignored by Python).
 
 The second line was also not executed because print('Hi') was preceded by the number sign (#) as well! Since this isn't an explanatory comment from the programmer, but an actual line of code, we might say that the programmer commented out that second line of code.
 
-Errors in Python
+- Errors in Python
 Everyone makes mistakes. For many types of mistakes, Python will tell you that you have made a mistake by giving you an error message. It is important to read error messages carefully to really understand where you made a mistake and how you may go about correcting it.
 
 For example, if you spell print as frint, Python will display an error message. Give it a try:
 
 # Print string as error message
 
-frint ("Hello, Python!")
+>frint ("Hello, Python!")
 
 The error message tells you:
 
